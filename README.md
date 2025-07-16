@@ -57,8 +57,8 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=m4li&show_icons=true&theme=radical" width="47%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m4li&layout=compact&theme=radical" width="47%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rahimovM4li&show_icons=true&theme=radical" width="47%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahimovM4li&layout=compact&theme=radical" width="47%" />
 </p>
 
 ### 🧠 Motto
