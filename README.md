@@ -73,7 +73,14 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=F75C7E&center=true&width=435&lines=Let's+Build+Cool+Stuff+Together!;Frontend+%2B+Backend+%3D+❤️;FromZero.ToFullstack" />
+  <img src="https://img.shields.io/badge/Frontend+%2B+Backend-%E2%9D%A4-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Let's_Build-Cool_Stuff_Together!-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FromZero-ToFullstack-blue?style=for-the-badge" />
+</p>
+
+---
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Let's+Build+Cool+Stuff+Together!;Frontend+%2B+Backend+%3D+❤️;FromZero.ToFullstack" alt="Typing SVG" />
 </p>
 
 
