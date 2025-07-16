@@ -39,9 +39,10 @@
 ---
 
 <p align="center">
-  <marquee behavior="scroll" direction="left" scrollamount="6">
-    🇹🇯 Tajik (Native) • 🇷🇺 Russian (C1) • 🇩🇪 German (B2–C1) • 🇺🇸 English (B1–B2)
-  </marquee>
+  <img src="https://img.shields.io/badge/Tajik-Muttersprache-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Russian-C1-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/German-B2–C1-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/English-B1–B2-orange?style=for-the-badge" />
 </p>
 
 ---
