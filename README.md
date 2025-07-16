@@ -38,6 +38,14 @@
 
 ---
 
+<p align="center">
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    🇹🇯 Tajik (Native) • 🇷🇺 Russian (C1) • 🇩🇪 German (B2–C1) • 🇺🇸 English (B1–B2)
+  </marquee>
+</p>
+
+---
+
 ### ✨ Portfolio
 🧠 Schau dir meine Projekte auf meiner Seite an:  
 ➡️ [**m4li.de**](https://m4li.de)
