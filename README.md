@@ -124,6 +124,6 @@ I'm happy to connect with developers and teams working on useful products, thoug
 
 <p align="center">
   <a href="https://m4li.de/">
-    <img src="./assets/footer.svg" width="100%" alt="Let's build something useful. Connect with Ali.">
+    <img src="footer.svg" width="100%" alt="Let's build something useful. Connect with Ali.">
   </a>
 </p>
