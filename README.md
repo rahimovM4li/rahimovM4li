@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://m4li.de/">
     <picture>
-      <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/hero-mobile-static.svg">
-      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-static.svg">
-      <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
-      <img src="./assets/hero.svg" width="100%" alt="Muhammadali Rahimov — Ali / M4LI. Full-stack development and AI integration. Based in Germany.">
+      <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="hero-mobile-static.svg">
+      <source media="(prefers-reduced-motion: reduce)" srcset="hero-static.svg">
+      <source media="(max-width: 600px)" srcset="hero-mobile.svg">
+      <img src="hero.svg" width="100%" alt="Muhammadali Rahimov — Ali / M4LI. Full-stack development and AI integration. Based in Germany.">
     </picture>
   </a>
 </p>
@@ -29,7 +29,7 @@ I build web applications across the stack: interfaces, backend services, databas
   <tr>
     <td width="50%" valign="top">
       <a href="https://davatnoma.m4li.de/">
-        <img src="./assets/projects/davatnoma.svg" width="100%" alt="Davatnoma — digital invitations with a personal touch.">
+        <img src="davatnoma.svg" width="100%" alt="Davatnoma — digital invitations with a personal touch.">
       </a>
       <p>Personalized digital invitations with templates, photos, music and mobile sharing.</p>
       <p><sub>React · TypeScript · Supabase · PostgreSQL</sub></p>
@@ -37,7 +37,7 @@ I build web applications across the stack: interfaces, backend services, databas
     </td>
     <td width="50%" valign="top">
       <a href="https://coach.m4li.de/">
-        <img src="./assets/projects/coach.svg" width="100%" alt="Exam Coach — AP1 and AP2 preparation for IT apprentices.">
+        <img src="coach.svg" width="100%" alt="Exam Coach — AP1 and AP2 preparation for IT apprentices.">
       </a>
       <p>Exam preparation for IT apprentices, with simulations, SQL and pseudocode practice, and offline learning.</p>
       <p><sub>React · TypeScript · PWA · IndexedDB</sub></p>
@@ -47,7 +47,7 @@ I build web applications across the stack: interfaces, backend services, databas
   <tr>
     <td width="50%" valign="top">
       <a href="https://roadmap.m4li.de/">
-        <img src="./assets/projects/roadmap.svg" width="100%" alt="Germany Roadmap — planning a new chapter in Germany.">
+        <img src="roadmap.svg" width="100%" alt="Germany Roadmap — planning a new chapter in Germany.">
       </a>
       <p>A multilingual guide to studying, working and living in Germany, built for people from Tajikistan.</p>
       <p><sub>React · TypeScript · Internationalization</sub></p>
@@ -56,7 +56,7 @@ I build web applications across the stack: interfaces, backend services, databas
     </td>
     <td width="50%" valign="top">
       <a href="https://www.sahifai-man.tj/">
-        <img src="./assets/projects/sahifai.svg" width="100%" alt="Sahifai Man — an online home for small businesses.">
+        <img src="sahifai.svg" width="100%" alt="Sahifai Man — an online home for small businesses.">
       </a>
       <p>A template-based platform for small businesses to present their services, prices, location and contact options.</p>
       <p><sub>Spring Boot · PostgreSQL · Responsive web</sub></p>
@@ -66,7 +66,7 @@ I build web applications across the stack: interfaces, backend services, databas
   <tr>
     <td width="50%" valign="top">
       <a href="https://fit.m4li.de/">
-        <img src="./assets/projects/fit.svg" width="100%" alt="M4LI Fit — workout tracking and progress.">
+        <img src="fit.svg" width="100%" alt="M4LI Fit — workout tracking and progress.">
       </a>
       <p>A mobile workout tracker for exercises, sets, reps and weight, with charts to follow progress.</p>
       <p><sub>React · TypeScript · PWA · Firebase</sub></p>
@@ -75,7 +75,7 @@ I build web applications across the stack: interfaces, backend services, databas
     </td>
     <td width="50%" valign="top">
       <a href="https://finance.m4li.de/">
-        <img src="./assets/projects/finance.svg" width="100%" alt="M4LI Finance — personal finances at a glance.">
+        <img src="finance.svg" width="100%" alt="M4LI Finance — personal finances at a glance.">
       </a>
       <p>A personal finance tracker for income, expenses, budgets and savings goals, with visual insights.</p>
       <p><sub>React · TypeScript · PWA · Firebase</sub></p>
