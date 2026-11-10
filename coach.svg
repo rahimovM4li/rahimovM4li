@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Exam Coach</title>
+<desc id="desc">Practice with purpose. Prepare for AP1 &amp; AP2.</desc>
+<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80f5b4" stop-opacity=".29"/><stop offset=".55" stop-color="#273445" stop-opacity=".65"/><stop offset="1" stop-color="#273445" stop-opacity=".35"/></linearGradient></defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif}
+ .signal{animation:travel 9s linear infinite}
+ @keyframes travel{to{stroke-dashoffset:-118}}
+ @media(prefers-reduced-motion:reduce){.signal{animation:none}}
+</style>
+<rect x=".75" y=".75" width="598.5" height="218.5" rx="17" fill="#090e16" stroke="url(#border)" stroke-width="1.5"/>
+<path d="M32 1h62" stroke="#80f5b4" stroke-opacity=".85" stroke-width="2"/>
+<circle cx="35" cy="36" r="3" fill="#80f5b4"/>
+<text x="47" y="40" fill="#a0acbd" font-size="11.5" font-weight="600" letter-spacing="1.65">02 / EXAM PREPARATION</text>
+<path d="M551 37l14-14M552 23h13v13" fill="none" stroke="#80f5b4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="85" fill="#f1f5fb" font-size="31" font-weight="700" letter-spacing="-.8">Exam Coach</text>
+<text x="32" y="125" fill="#a7b2c3" font-size="18.5">Practice with purpose.</text>
+<text x="32" y="151" fill="#a7b2c3" font-size="18.5">Prepare for AP1 &amp; AP2.</text>
+<text x="32" y="191" fill="#80f5b4" font-size="11.5" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
+<rect x="458" y="93" width="91" height="99" rx="9" fill="#0e1920" stroke="#2a3b41"/>
+<path d="M459 118h89" stroke="#2a3b41"/><circle cx="470" cy="106" r="2.5" fill="#80f5b4"/>
+<path d="M478 106h23" stroke="#516d69" stroke-width="2" stroke-linecap="round"/>
+<rect x="472" y="132" width="11" height="11" rx="2" fill="#17372d"/><path d="M474 137l2 2 5-5" fill="none" stroke="#80f5b4" stroke-width="1.5"/>
+<path d="M494 137h38" stroke="#546572" stroke-width="2" stroke-linecap="round"/>
+<rect x="472" y="153" width="11" height="11" rx="2" fill="#17372d"/><path d="M474 158l2 2 5-5" fill="none" stroke="#80f5b4" stroke-width="1.5"/>
+<path d="M494 158h27" stroke="#546572" stroke-width="2" stroke-linecap="round"/>
+<path d="M473 179h58" stroke="#273c39" stroke-width="3" stroke-linecap="round"/>
+<path class="signal" d="M473 179h58" stroke="#80f5b4" stroke-width="3" stroke-dasharray="18 100" stroke-linecap="round"/>
+</svg>

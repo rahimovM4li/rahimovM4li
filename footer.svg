@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="162" viewBox="0 0 1200 162" role="img" aria-labelledby="title desc">
+  <title id="title">Let's build something useful.</title>
+  <desc id="desc">Connect with Ali about software, AI, and ideas worth building.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1"><stop stop-color="#090e16"/><stop offset="1" stop-color="#11251f"/></linearGradient>
+    <linearGradient id="rail"><stop stop-color="#80f5b4" stop-opacity="0"/><stop offset=".55" stop-color="#80f5b4"/><stop offset="1" stop-color="#80b6ff" stop-opacity="0"/></linearGradient>
+    <style>
+      text { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; }
+      .arrow { animation: nudge 4s ease-in-out infinite; }
+      .trace { stroke-dasharray:12 210; animation: travel 8s linear infinite; }
+      @keyframes nudge { 0%,100% { transform:translate(0,0); } 50% { transform:translate(4px,-4px); } }
+      @keyframes travel { to { stroke-dashoffset:-444; } }
+      @media(prefers-reduced-motion:reduce) { .arrow,.trace { animation:none !important; } }
+    </style>
+  </defs>
+  <rect x=".5" y=".5" width="1199" height="161" rx="22" fill="url(#wash)" stroke="#263541"/>
+  <text x="64" y="66" font-size="13" font-family="Consolas,monospace" letter-spacing="2.2" fill="#80f5b4">GOOD IDEAS START A CONVERSATION.</text>
+  <text x="62" y="113" font-size="35" font-weight="600" letter-spacing="-1" fill="#eff6fa">Let's build something useful.</text>
+  <path d="M721 81h260" stroke="#294238" fill="none"/>
+  <path class="trace" d="M721 81h260" stroke="url(#rail)" stroke-width="2" fill="none"/>
+  <circle cx="1064" cy="81" r="37" fill="#142a23" stroke="#3b6552"/>
+  <path class="arrow" d="M1051 94 1077 68m-24 0h24v24" fill="none" stroke="#80f5b4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

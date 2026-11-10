@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">M4LI Fit</title>
+<desc id="desc">Log your workouts. See your progress.</desc>
+<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1b38b" stop-opacity=".29"/><stop offset=".55" stop-color="#273445" stop-opacity=".65"/><stop offset="1" stop-color="#273445" stop-opacity=".35"/></linearGradient></defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif}
+ .signal{animation:travel 14s linear infinite}
+ @keyframes travel{to{stroke-dashoffset:-233}}
+ @media(prefers-reduced-motion:reduce){.signal{animation:none}}
+</style>
+<rect x=".75" y=".75" width="598.5" height="218.5" rx="17" fill="#090e16" stroke="url(#border)" stroke-width="1.5"/>
+<path d="M32 1h62" stroke="#f1b38b" stroke-opacity=".85" stroke-width="2"/>
+<circle cx="35" cy="36" r="3" fill="#f1b38b"/>
+<text x="47" y="40" fill="#a0acbd" font-size="11.5" font-weight="600" letter-spacing="1.65">05 / FITNESS TRACKING</text>
+<path d="M551 37l14-14M552 23h13v13" fill="none" stroke="#f1b38b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="85" fill="#f1f5fb" font-size="31" font-weight="700" letter-spacing="-.8">M4LI Fit</text>
+<text x="32" y="125" fill="#a7b2c3" font-size="18.5">Log your workouts.</text>
+<text x="32" y="151" fill="#a7b2c3" font-size="18.5">See your progress.</text>
+<text x="32" y="191" fill="#f1b38b" font-size="11.5" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
+<circle cx="505" cy="145" r="48" fill="#131719" stroke="#303235"/>
+<circle cx="505" cy="145" r="37" fill="none" stroke="#293032" stroke-width="5"/>
+<circle class="signal" cx="505" cy="145" r="37" fill="none" stroke="#f1b38b" stroke-width="5" stroke-dasharray="52 181" stroke-linecap="round"/>
+<path d="M475 148h15l8-16 10 28 8-18h18" fill="none" stroke="#f1b38b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="540" cy="108" r="5" fill="#090e16" stroke="#f1b38b" stroke-width="1.5"/>
+</svg>

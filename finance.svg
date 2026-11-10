@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">M4LI Finance</title>
+<desc id="desc">Income, budgets &amp; goals. Keep them in one place.</desc>
+<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c8d68e" stop-opacity=".29"/><stop offset=".55" stop-color="#273445" stop-opacity=".65"/><stop offset="1" stop-color="#273445" stop-opacity=".35"/></linearGradient></defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif}
+ .signal{animation:travel 13s linear infinite}
+ @keyframes travel{to{stroke-dashoffset:-165}}
+ @media(prefers-reduced-motion:reduce){.signal{animation:none}}
+</style>
+<rect x=".75" y=".75" width="598.5" height="218.5" rx="17" fill="#090e16" stroke="url(#border)" stroke-width="1.5"/>
+<path d="M32 1h62" stroke="#c8d68e" stroke-opacity=".85" stroke-width="2"/>
+<circle cx="35" cy="36" r="3" fill="#c8d68e"/>
+<text x="47" y="40" fill="#a0acbd" font-size="11.5" font-weight="600" letter-spacing="1.65">06 / PERSONAL FINANCE</text>
+<path d="M551 37l14-14M552 23h13v13" fill="none" stroke="#c8d68e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="85" fill="#f1f5fb" font-size="31" font-weight="700" letter-spacing="-.8">M4LI Finance</text>
+<text x="32" y="125" fill="#a7b2c3" font-size="18.5">Income, budgets &amp; goals.</text>
+<text x="32" y="151" fill="#a7b2c3" font-size="18.5">Keep them in one place.</text>
+<text x="32" y="191" fill="#c8d68e" font-size="11.5" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
+<path d="M455 189h99" stroke="#35413a" stroke-width="1.5"/>
+<rect x="466" y="153" width="17" height="35" rx="4" fill="#23312b"/>
+<rect x="496" y="131" width="17" height="57" rx="4" fill="#3d4b32"/>
+<rect x="526" y="107" width="17" height="81" rx="4" fill="#c8d68e" fill-opacity=".72"/>
+<path d="M473 136l30-22 30-24" fill="none" stroke="#62734c" stroke-width="1.8"/>
+<path class="signal" d="M473 136l30-22 30-24" fill="none" stroke="#c8d68e" stroke-width="2.3" stroke-dasharray="15 150"/>
+<path d="M522 90h11v11" fill="none" stroke="#c8d68e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="461" cy="106" r="13" fill="none" stroke="#394333"/><path d="M457 106h8M461 102v8" stroke="#c8d68e" stroke-opacity=".7" stroke-width="1.6"/>
+</svg>

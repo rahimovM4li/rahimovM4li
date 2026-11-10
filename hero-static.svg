@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="448" viewBox="0 0 1200 448" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammadali Rahimov — full-stack development and AI integration</title>
+  <desc id="desc">M4LI. Software developer based in Germany. An illustration connects an interface, an API and a data layer. Building with purpose.</desc>
+  <defs>
+    <radialGradient id="ambient" cx="84%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#16372f" stop-opacity=".62"/>
+      <stop offset=".58" stop-color="#122237" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#090e16" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2=".6">
+      <stop stop-color="#ffffff"/><stop offset="1" stop-color="#d1dce9"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1a2a36"/><stop offset="1" stop-color="#0b141e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#80f5b4" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#80f5b4"/>
+      <stop offset="1" stop-color="#80b6ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".7" fill="#6f8d9d" fill-opacity=".16"/>
+    </pattern>
+    <clipPath id="canvas"><rect x=".5" y=".5" width="1199" height="447" rx="22"/></clipPath>
+    <style>text { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }.mono { font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace; }.signal { stroke-dasharray:7 193; }.signal-two { stroke-dashoffset:-200; }</style>
+  </defs>
+  <g clip-path="url(#canvas)">
+    <rect width="1200" height="448" fill="#090e16"/>
+    <rect width="1200" height="448" fill="url(#ambient)"/>
+    <rect x="704" y="28" width="472" height="354" fill="url(#grid)"/>
+    <rect x="64" width="52" height="3" rx="1.5" fill="#80f5b4"/>
+
+    <g fill="none" stroke="#27433f" stroke-width="1">
+      <circle cx="963" cy="214" r="150"/>
+      <circle cx="963" cy="214" r="173" stroke-dasharray="2 9" opacity=".65"/>
+    </g>
+    <circle class="halo" cx="963" cy="214" r="150" fill="none" stroke="#80f5b4" stroke-opacity=".3" stroke-width="1"/>
+    <path class="signal" d="M963 64a150 150 0 1 1-.01 0" pathLength="400" fill="none" stroke="#80f5b4" stroke-width="2.5" stroke-linecap="round"/>
+    <path class="signal signal-two" d="M963 64a150 150 0 1 1-.01 0" pathLength="400" fill="none" stroke="#80b6ff" stroke-width="2.5" stroke-linecap="round"/>
+
+    <text x="64" y="59" class="mono" font-size="14" letter-spacing="2.2" fill="#80f5b4">M4LI</text>
+    <path d="M125 47v14" stroke="#3b4c5b"/>
+    <text x="145" y="59" class="mono" font-size="12" letter-spacing="1.8" fill="#9aafc0">SOFTWARE DEVELOPER</text>
+
+    <text x="60" y="166" font-size="79" font-weight="700" letter-spacing="-3.8" fill="url(#name)">Muhammadali</text>
+    <text x="60" y="251" font-size="79" font-weight="700" letter-spacing="-3.8" fill="url(#name)">Rahimov<tspan fill="#80f5b4">.</tspan></text>
+    <text x="64" y="299" font-size="23" font-weight="400" letter-spacing="-.25" fill="#adc0d0">Full-stack development <tspan fill="#59766b">·</tspan> AI integration</text>
+    <path class="accent" d="M64 329h98" stroke="url(#line)" stroke-width="2" stroke-linecap="round"/>
+
+    <g class="stack">
+      <path d="M963 130v162" stroke="#6caa99" stroke-width="1.5" stroke-dasharray="3 7"/>
+      <g>
+        <path d="M820 264 960 221 1105 264 965 310Z" fill="#0d1923" stroke="#294248"/>
+        <path d="M820 264v17l145 47 140-47v-17l-140 46Z" fill="#0b151e" stroke="#294248"/>
+        <path d="m841 268 124 38 119-36" fill="none" stroke="#466c78" opacity=".45"/>
+        <text x="941" y="284" class="mono" font-size="12" letter-spacing="2" fill="#9eb5c9">DATA</text>
+        <circle cx="1079" cy="277" r="2.5" fill="#80b6ff"/>
+      </g>
+      <g>
+        <path d="M820 204 960 161 1105 204 965 250Z" fill="url(#plate)" stroke="#42635f"/>
+        <path d="M820 204v17l145 47 140-47v-17l-140 46Z" fill="#0c1821" stroke="#35534e"/>
+        <path d="m841 208 124 38 119-36" fill="none" stroke="#80f5b4" opacity=".35"/>
+        <text x="947" y="223" class="mono" font-size="13" letter-spacing="2.5" fill="#80f5b4">API</text>
+        <circle class="cursor" cx="1079" cy="217" r="2.5" fill="#80f5b4"/>
+      </g>
+      <g>
+        <path d="M820 144 960 101 1105 144 965 190Z" fill="url(#plate)" stroke="#567c73"/>
+        <path d="M820 144v17l145 47 140-47v-17l-140 46Z" fill="#111e28" stroke="#3b6259"/>
+        <path d="m844 144 116-35 120 35-115 37Z" fill="#13242c" stroke="#44645f"/>
+        <path d="m861 144 22-7 52 16-23 7Z" fill="#80f5b4" fill-opacity=".75"/>
+        <path d="m896 134 62-19 13 4-62 19Zm20 7 62-19 8 3-62 19Z" fill="#73939d" fill-opacity=".4"/>
+        <path d="m946 159 61-19 27 8-61 19Z" fill="#80b6ff" fill-opacity=".25"/>
+        <circle class="cursor" cx="1079" cy="157" r="2.5" fill="#80f5b4"/>
+      </g>
+      <path d="M1105 144h29v-32" stroke="#39524e" fill="none"/>
+      <circle cx="1134" cy="107" r="3" fill="#80f5b4"/>
+      <text x="844" y="354" class="mono" font-size="10" letter-spacing="2.2" fill="#8da8b8">INTERFACE / API / DATA</text>
+    </g>
+
+    <path d="M64 383h1072" stroke="#24323e"/>
+    <circle cx="69" cy="415" r="3.5" fill="#80f5b4"/>
+    <text x="84" y="419" class="mono" font-size="11" letter-spacing="1.6" fill="#9cafbf">BASED IN GERMANY</text>
+    <text x="1136" y="419" text-anchor="end" class="mono" font-size="11" letter-spacing="1.6" fill="#9cafbf">BUILDING WITH PURPOSE</text>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="447" rx="22" fill="none" stroke="#263541"/>
+</svg>

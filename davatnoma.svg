@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Davatnoma</title>
+<desc id="desc">Make the invitation part of the celebration.</desc>
+<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c2a2ff" stop-opacity=".29"/><stop offset=".55" stop-color="#273445" stop-opacity=".65"/><stop offset="1" stop-color="#273445" stop-opacity=".35"/></linearGradient></defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif}
+ .signal{animation:travel 15s linear infinite}
+ @keyframes travel{to{stroke-dashoffset:-374}}
+ @media(prefers-reduced-motion:reduce){.signal{animation:none}}
+</style>
+<rect x=".75" y=".75" width="598.5" height="218.5" rx="17" fill="#090e16" stroke="url(#border)" stroke-width="1.5"/>
+<path d="M32 1h62" stroke="#c2a2ff" stroke-opacity=".85" stroke-width="2"/>
+<circle cx="35" cy="36" r="3" fill="#c2a2ff"/>
+<text x="47" y="40" fill="#a0acbd" font-size="11.5" font-weight="600" letter-spacing="1.65">01 / DIGITAL INVITATIONS</text>
+<path d="M551 37l14-14M552 23h13v13" fill="none" stroke="#c2a2ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="85" fill="#f1f5fb" font-size="31" font-weight="700" letter-spacing="-.8">Davatnoma</text>
+<text x="32" y="125" fill="#a7b2c3" font-size="18.5">Make the invitation</text>
+<text x="32" y="151" fill="#a7b2c3" font-size="18.5">part of the celebration.</text>
+<text x="32" y="191" fill="#c2a2ff" font-size="11.5" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
+<rect x="451" y="101" width="87" height="97" rx="8" fill="#111a26" stroke="#263140" transform="rotate(-11 494 149)"/>
+<rect x="462" y="92" width="87" height="97" rx="8" fill="#0e1520" stroke="#c2a2ff" stroke-opacity=".56"/>
+<path d="M482 120h47M482 128h33" stroke="#576172" stroke-width="2" stroke-linecap="round"/>
+<path d="M483 149h45v27h-45zM483 149l22.5 16 22.5-16" fill="none" stroke="#c2a2ff" stroke-width="2" stroke-linejoin="round"/>
+<path class="signal" d="M462 173v-73q0-8 8-8h71q8 0 8 8v81q0 8-8 8h-71q-8 0-8-8z" fill="none" stroke="#c2a2ff" stroke-width="2" stroke-dasharray="24 350"/>
+<circle cx="552" cy="93" r="4" fill="#c2a2ff"/>
+</svg>

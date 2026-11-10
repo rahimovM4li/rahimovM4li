@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Sahifai Man</title>
+<desc id="desc">A home for local businesses.</desc>
+<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9eaaff" stop-opacity=".29"/><stop offset=".55" stop-color="#273445" stop-opacity=".65"/><stop offset="1" stop-color="#273445" stop-opacity=".35"/></linearGradient></defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif}
+ .signal{animation:travel 16s linear infinite}
+ @keyframes travel{to{stroke-dashoffset:-389}}
+ @media(prefers-reduced-motion:reduce){.signal{animation:none}}
+</style>
+<rect x=".75" y=".75" width="598.5" height="218.5" rx="17" fill="#090e16" stroke="url(#border)" stroke-width="1.5"/>
+<path d="M32 1h62" stroke="#9eaaff" stroke-opacity=".85" stroke-width="2"/>
+<circle cx="35" cy="36" r="3" fill="#9eaaff"/>
+<text x="47" y="40" fill="#a0acbd" font-size="11.5" font-weight="600" letter-spacing="1.65">04 / SMALL BUSINESS</text>
+<path d="M551 37l14-14M552 23h13v13" fill="none" stroke="#9eaaff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="85" fill="#f1f5fb" font-size="31" font-weight="700" letter-spacing="-.8">Sahifai Man</text>
+<text x="32" y="125" fill="#a7b2c3" font-size="18.5">A home for</text>
+<text x="32" y="151" fill="#a7b2c3" font-size="18.5">local businesses.</text>
+<text x="32" y="191" fill="#9eaaff" font-size="11.5" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
+<rect x="452" y="102" width="106" height="78" rx="8" fill="#111725" stroke="#333d57"/>
+<path d="M453 120h104" stroke="#333d57"/><circle cx="464" cy="111" r="2" fill="#9eaaff"/><circle cx="472" cy="111" r="2" fill="#586180"/><circle cx="480" cy="111" r="2" fill="#39405b"/>
+<rect x="465" y="133" width="24" height="33" rx="4" fill="#252e48"/>
+<path d="M499 136h39M499 145h29M499 154h34" stroke="#54607b" stroke-width="2" stroke-linecap="round"/>
+<path class="signal" d="M452 160v-50q0-8 8-8h90q8 0 8 8v62q0 8-8 8h-90q-8 0-8-8z" fill="none" stroke="#9eaaff" stroke-width="2" stroke-dasharray="24 365"/>
+<path d="M486 192h38M505 181v11" stroke="#3b455b" stroke-width="1.7" stroke-linecap="round"/>
+</svg>

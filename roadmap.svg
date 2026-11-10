@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Germany Roadmap</title>
+<desc id="desc">Explore your next step. Study, work &amp; training.</desc>
+<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80b6ff" stop-opacity=".29"/><stop offset=".55" stop-color="#273445" stop-opacity=".65"/><stop offset="1" stop-color="#273445" stop-opacity=".35"/></linearGradient></defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif}
+ .signal{animation:travel 12s linear infinite}
+ @keyframes travel{to{stroke-dashoffset:-174}}
+ @media(prefers-reduced-motion:reduce){.signal{animation:none}}
+</style>
+<rect x=".75" y=".75" width="598.5" height="218.5" rx="17" fill="#090e16" stroke="url(#border)" stroke-width="1.5"/>
+<path d="M32 1h62" stroke="#80b6ff" stroke-opacity=".85" stroke-width="2"/>
+<circle cx="35" cy="36" r="3" fill="#80b6ff"/>
+<text x="47" y="40" fill="#a0acbd" font-size="11.5" font-weight="600" letter-spacing="1.65">03 / LIFE IN GERMANY</text>
+<path d="M551 37l14-14M552 23h13v13" fill="none" stroke="#80b6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="85" fill="#f1f5fb" font-size="31" font-weight="700" letter-spacing="-.8">Germany Roadmap</text>
+<text x="32" y="125" fill="#a7b2c3" font-size="18.5">Explore your next step.</text>
+<text x="32" y="151" fill="#a7b2c3" font-size="18.5">Study, work &amp; training.</text>
+<text x="32" y="191" fill="#80b6ff" font-size="11.5" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
+<path d="M458 190V158q0-15 15-15h49q16 0 16-16v-22" fill="none" stroke="#2c3c50" stroke-width="2" stroke-dasharray="4 6"/>
+<path class="signal" d="M458 190V158q0-15 15-15h49q16 0 16-16v-22" fill="none" stroke="#80b6ff" stroke-width="2.5" stroke-dasharray="18 156"/>
+<circle cx="458" cy="190" r="5" fill="#090e16" stroke="#80b6ff" stroke-width="2"/>
+<circle cx="538" cy="105" r="19" fill="#101b29" stroke="#80b6ff" stroke-opacity=".65"/>
+<path d="M544 96l-4 15-10 4 4-15z" fill="#80b6ff" fill-opacity=".9"/>
+<path d="M476 109h13M482.5 102.5v13" stroke="#39495e" stroke-width="1.5"/>
+<circle cx="529" cy="182" r="14" fill="none" stroke="#243246"/><circle cx="529" cy="182" r="3" fill="#5c7899"/>
+</svg>
