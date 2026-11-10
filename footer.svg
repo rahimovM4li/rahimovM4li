@@ -1,23 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="162" viewBox="0 0 1200 162" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="228" viewBox="0 0 1200 228" role="img" aria-labelledby="title desc">
   <title id="title">Let's build something useful.</title>
-  <desc id="desc">Connect with Ali about software, AI, and ideas worth building.</desc>
+  <desc id="desc">Connect with Ali. A luminous circuit carries an idea toward an animated arrow.</desc>
   <defs>
-    <linearGradient id="wash" x1="0" x2="1"><stop stop-color="#090e16"/><stop offset="1" stop-color="#11251f"/></linearGradient>
-    <linearGradient id="rail"><stop stop-color="#80f5b4" stop-opacity="0"/><stop offset=".55" stop-color="#80f5b4"/><stop offset="1" stop-color="#80b6ff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070d17"/><stop offset=".55" stop-color="#0c1520"/><stop offset="1" stop-color="#112f2b"/></linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#86f7c9" stop-opacity=".7"/><stop offset=".4" stop-color="#3b516b" stop-opacity=".25"/><stop offset="1" stop-color="#8c9fff" stop-opacity=".6"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7fe9d2" stop-opacity="0"/><stop offset=".6" stop-color="#92ffcb"/><stop offset="1" stop-color="#8fb9ff"/></linearGradient>
+    <radialGradient id="bloom"><stop stop-color="#55e9b9" stop-opacity=".18"/><stop offset="1" stop-color="#55e9b9" stop-opacity="0"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="226" rx="26"/></clipPath>
     <style>
-      text { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; }
-      .arrow { animation: nudge 4s ease-in-out infinite; }
-      .trace { stroke-dasharray:12 210; animation: travel 8s linear infinite; }
-      @keyframes nudge { 0%,100% { transform:translate(0,0); } 50% { transform:translate(4px,-4px); } }
-      @keyframes travel { to { stroke-dashoffset:-444; } }
-      @media(prefers-reduced-motion:reduce) { .arrow,.trace { animation:none !important; } }
+      text{font-family:Arial,Helvetica,sans-serif}
+      .flow{stroke-dasharray:28 314;animation:signal 6s linear infinite}
+      .halo{transform-origin:1060px 114px;animation:orbit 26s linear infinite}
+      .arrow{animation:lift 5.5s ease-in-out infinite}
+      .glow{animation:breathe 7s ease-in-out infinite}
+      @keyframes signal{to{stroke-dashoffset:-684}}
+      @keyframes orbit{to{transform:rotate(360deg)}}
+      @keyframes lift{0%,100%{transform:translate(0,0)}50%{transform:translate(6px,-6px)}}
+      @keyframes breathe{0%,100%{opacity:.55}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.flow,.halo,.arrow,.glow{animation:none!important}}
     </style>
   </defs>
-  <rect x=".5" y=".5" width="1199" height="161" rx="22" fill="url(#wash)" stroke="#263541"/>
-  <text x="64" y="66" font-size="13" font-family="Consolas,monospace" letter-spacing="2.2" fill="#80f5b4">GOOD IDEAS START A CONVERSATION.</text>
-  <text x="62" y="113" font-size="35" font-weight="600" letter-spacing="-1" fill="#eff6fa">Let's build something useful.</text>
-  <path d="M721 81h260" stroke="#294238" fill="none"/>
-  <path class="trace" d="M721 81h260" stroke="url(#rail)" stroke-width="2" fill="none"/>
-  <circle cx="1064" cy="81" r="37" fill="#142a23" stroke="#3b6552"/>
-  <path class="arrow" d="M1051 94 1077 68m-24 0h24v24" fill="none" stroke="#80f5b4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x=".75" y=".75" width="1198.5" height="226.5" rx="26" fill="url(#background)" stroke="url(#border)" stroke-width="1.5"/>
+  <g clip-path="url(#frame)">
+    <ellipse class="glow" cx="1080" cy="125" rx="315" ry="240" fill="url(#bloom)"/>
+    <path d="M712 74h80l28 28h105m-201 52h61l30-28h110" stroke="#2d4c4d" stroke-width="1" fill="none"/>
+    <path class="flow" d="M712 74h80l28 28h105m-201 52h61l30-28h110" stroke="url(#beam)" stroke-width="2.2" fill="none"/>
+    <circle cx="712" cy="74" r="3" fill="#78d7b2"/><circle cx="724" cy="154" r="3" fill="#849ed6"/>
+    <g class="halo" fill="none"><circle cx="1060" cy="114" r="87" stroke="#518781" stroke-opacity=".4" stroke-dasharray="2 12"/>
+      <circle cx="1060" cy="114" r="75" stroke="#9ef4d4" stroke-width="1.5" stroke-dasharray="85 386" transform="rotate(-45 1060 114)"/>
+      <circle cx="1060" cy="27" r="3" fill="#a3ffe0" stroke="none"/></g>
+    <circle cx="1060" cy="114" r="60" fill="#173b33" fill-opacity=".62" stroke="#658f85" stroke-opacity=".5"/>
+    <circle cx="1060" cy="114" r="53" fill="none" stroke="#254c43"/>
+    <path class="arrow" d="m1042 132 36-36m-32 0h32v32" fill="none" stroke="#a3ffe0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M58 1h118" stroke="#9bf3cc" stroke-width="2"/>
+  </g>
+  <text x="58" y="59" fill="#8ee9c1" font-size="13" font-weight="700" letter-spacing="2.2">FROM A CONVERSATION TO SOMETHING REAL.</text>
+  <text x="55" y="126" fill="#f1f6fd" font-size="49" font-weight="700" letter-spacing="-1.8">Let's build something useful.</text>
+  <text x="59" y="177" fill="#9dafc2" font-size="17">Thoughtful interfaces. Solid engineering. Practical AI.</text>
 </svg>

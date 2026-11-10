@@ -1,27 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-labelledby="title desc">
 <title id="title">Germany Roadmap</title>
-<desc id="desc">Explore your next step. Study, work &amp; training.</desc>
-<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80b6ff" stop-opacity=".29"/><stop offset=".55" stop-color="#273445" stop-opacity=".65"/><stop offset="1" stop-color="#273445" stop-opacity=".35"/></linearGradient></defs>
+<desc id="desc">Explore your next step. Study, work &amp; training. Animated project illustration with a static reduced-motion view.</desc>
+<defs><linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1420"/><stop offset=".55" stop-color="#090e16"/><stop offset="1" stop-color="#0e1823"/></linearGradient>
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ad7ff" stop-opacity=".45"/><stop offset=".45" stop-color="#334355" stop-opacity=".6"/><stop offset="1" stop-color="#8ad7ff" stop-opacity=".2"/></linearGradient>
+<radialGradient id="bloom"><stop stop-color="#8ad7ff" stop-opacity=".2"/><stop offset="1" stop-color="#8ad7ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="panel" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#102b42"/><stop offset="1" stop-color="#0b1521"/></linearGradient>
+<linearGradient id="bag" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#684030"/><stop offset="1" stop-color="#281f24"/></linearGradient>
+<radialGradient id="plate"><stop stop-color="#263a2c"/><stop offset=".73" stop-color="#15261f"/><stop offset=".87" stop-color="#516046"/><stop offset="1" stop-color="#17251d"/></radialGradient>
+<linearGradient id="paper" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#524362"/><stop offset="1" stop-color="#211c34"/></linearGradient>
+<linearGradient id="envelope" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#594469"/><stop offset="1" stop-color="#29203c"/></linearGradient>
+<linearGradient id="scan-light" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8ad7ff" stop-opacity="0"/><stop offset="1" stop-color="#8ad7ff" stop-opacity=".7"/></linearGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#8ad7ff" opacity=".17"/></pattern>
+<clipPath id="card-clip"><rect x="1" y="1" width="598" height="268" rx="21"/></clipPath>
+<clipPath id="scan-clip"><rect x="25" y="42" width="182" height="82" rx="3"/></clipPath>
+</defs>
 <style>
- text{font-family:Arial,Helvetica,sans-serif}
- .signal{animation:travel 12s linear infinite}
- @keyframes travel{to{stroke-dashoffset:-174}}
- @media(prefers-reduced-motion:reduce){.signal{animation:none}}
+text{font-family:Arial,Helvetica,sans-serif}
+.float{animation:float 7s ease-in-out infinite}
+.float-alt{animation:float-alt 9s ease-in-out infinite}
+.breathe{animation:breathe 8s ease-in-out infinite}
+.orbit{transform-origin:0 0;animation:orbit 20s linear infinite}
+.orbit-slow{transform-origin:0 0;animation:orbit 30s linear infinite reverse}
+.spark{animation:spark 6s ease-in-out infinite}
+.spark-late{animation:spark 7.5s ease-in-out infinite reverse}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes float-alt{0%,100%{transform:translateY(-3px)}50%{transform:translateY(5px)}}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:.9}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes spark{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(-10px);opacity:1}}
+ .route-flow{animation:route-flow 8s linear infinite}@keyframes route-flow{to{stroke-dashoffset:-200}} .compass{transform-origin:0 0;animation:compass 7s ease-in-out infinite}@keyframes compass{0%,100%{transform:rotate(-17deg)}50%{transform:rotate(21deg)}} .beacon-pulse{transform-origin:0 0;animation:beacon 4s ease-in-out infinite}@keyframes beacon{0%,100%{transform:scale(.8);opacity:.65}50%{transform:scale(1.15);opacity:1}} .route-beacon{animation:route-beacon 9s ease-in-out infinite alternate}@keyframes route-beacon{0%{transform:translate(0,0)}25%{transform:translate(32px,-13px)}50%{transform:translate(62px,-14px)}75%{transform:translate(103px,10px)}100%{transform:translate(143px,-14px)}} 
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.route-beacon{transform:none}}
 </style>
-<rect x=".75" y=".75" width="598.5" height="218.5" rx="17" fill="#090e16" stroke="url(#border)" stroke-width="1.5"/>
-<path d="M32 1h62" stroke="#80b6ff" stroke-opacity=".85" stroke-width="2"/>
-<circle cx="35" cy="36" r="3" fill="#80b6ff"/>
-<text x="47" y="40" fill="#a0acbd" font-size="11.5" font-weight="600" letter-spacing="1.65">03 / LIFE IN GERMANY</text>
-<path d="M551 37l14-14M552 23h13v13" fill="none" stroke="#80b6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="32" y="85" fill="#f1f5fb" font-size="31" font-weight="700" letter-spacing="-.8">Germany Roadmap</text>
-<text x="32" y="125" fill="#a7b2c3" font-size="18.5">Explore your next step.</text>
-<text x="32" y="151" fill="#a7b2c3" font-size="18.5">Study, work &amp; training.</text>
-<text x="32" y="191" fill="#80b6ff" font-size="11.5" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
-<path d="M458 190V158q0-15 15-15h49q16 0 16-16v-22" fill="none" stroke="#2c3c50" stroke-width="2" stroke-dasharray="4 6"/>
-<path class="signal" d="M458 190V158q0-15 15-15h49q16 0 16-16v-22" fill="none" stroke="#80b6ff" stroke-width="2.5" stroke-dasharray="18 156"/>
-<circle cx="458" cy="190" r="5" fill="#090e16" stroke="#80b6ff" stroke-width="2"/>
-<circle cx="538" cy="105" r="19" fill="#101b29" stroke="#80b6ff" stroke-opacity=".65"/>
-<path d="M544 96l-4 15-10 4 4-15z" fill="#80b6ff" fill-opacity=".9"/>
-<path d="M476 109h13M482.5 102.5v13" stroke="#39495e" stroke-width="1.5"/>
-<circle cx="529" cy="182" r="14" fill="none" stroke="#243246"/><circle cx="529" cy="182" r="3" fill="#5c7899"/>
+<rect x=".8" y=".8" width="598.4" height="268.4" rx="21" fill="url(#background)" stroke="url(#border)" stroke-width="1.6"/>
+<g clip-path="url(#card-clip)">
+<ellipse class="breathe" cx="500" cy="192" rx="172" ry="141" fill="url(#bloom)"/>
+<rect x="352" y="100" width="240" height="156" fill="url(#dots)"/>
+<path d="M363 267C428 213 515 250 596 200" fill="none" stroke="#8ad7ff" stroke-opacity=".08" stroke-width="1.2"/>
+<path d="M402 268C470 224 549 245 600 220" fill="none" stroke="#8ad7ff" stroke-opacity=".1"/>
+<path d="M34 1h85" stroke="#8ad7ff" stroke-opacity=".8" stroke-width="2"/>
+<path d="M590 184v50q0 25-25 25h-47" fill="none" stroke="#8ad7ff" stroke-opacity=".18"/>
+<g transform="translate(349 101)">
+<ellipse cx="118" cy="140" rx="99" ry="15" fill="#000" opacity=".25"/>
+<g class="float-alt">
+<path d="M10 79l105-57 112 60-107 67z" fill="#060b12" opacity=".4"/>
+<path d="M10 69l105-57 112 60-107 67z" fill="url(#panel)" stroke="#8ad7ff" stroke-opacity=".45" stroke-linejoin="round"/>
+<path d="M43 51l111 63M78 32l111 61M45 89l107-57M80 110l108-59" fill="none" stroke="#31506b" stroke-opacity=".75"/>
+<path d="M44 79C68 94 73 44 105 64s34 36 66 15l16-14" fill="none" stroke="#243b51" stroke-width="9" stroke-linecap="round"/>
+<path d="M44 79C68 94 73 44 105 64s34 36 66 15l16-14" fill="none" stroke="#8ad7ff" stroke-opacity=".9" stroke-width="2.4" stroke-linecap="round"/>
+<path class="route-flow" d="M44 79C68 94 73 44 105 64s34 36 66 15l16-14" fill="none" stroke="#e3f8ff" stroke-width="3" stroke-dasharray="15 185" stroke-linecap="round"/>
+<circle cx="44" cy="79" r="5" fill="#102236" stroke="#8ad7ff" stroke-width="2"/>
+<g transform="translate(187 65)"><g class="beacon-pulse"><circle r="16" fill="#8ad7ff" opacity=".12"/><circle r="10" fill="none" stroke="#8ad7ff" stroke-opacity=".5"/></g><circle r="4" fill="#c4f6ff"/></g>
+<g transform="translate(44 79)"><g class="route-beacon"><circle r="9" fill="#8ad7ff" opacity=".2"/><circle r="3.3" fill="#e5fbff"/></g></g>
+</g>
+<g transform="translate(176 24)"><g class="float"><circle cy="5" r="26" fill="#000" opacity=".2"/><circle r="26" fill="#142234" stroke="#8ad7ff" stroke-opacity=".55"/><circle r="19" fill="none" stroke="#50718e" stroke-opacity=".55"/><g class="compass"><path d="M0-15l7 15-7 15-7-15z" fill="#6199c2"/><path d="M0-15l7 15H-7z" fill="#c0f2ff"/></g></g></g>
+<path class="spark" d="M29 23v9M24.5 27.5h9" stroke="#8ad7ff" stroke-opacity=".65" stroke-width="1.4"/>
+</g>
+</g>
+<circle cx="35" cy="34" r="3" fill="#8ad7ff"/>
+<text x="47" y="38" fill="#a7b7ca" font-size="11" font-weight="600" letter-spacing="1.45">02 / LIFE IN GERMANY</text>
+<path d="M549 39l15-15M551 24h13v13" fill="none" stroke="#8ad7ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="86" fill="#f1f6fc" font-size="34" font-weight="700" letter-spacing="-.95">Germany Roadmap</text>
+<text x="32" y="130" fill="#acbacc" font-size="18.5">Explore your next step.</text>
+<text x="32" y="156" fill="#acbacc" font-size="18.5">Study, work &amp; training.</text>
+<path d="M32 212h31" stroke="#8ad7ff" stroke-width="1.5" stroke-opacity=".65"/>
+<text x="32" y="235" fill="#8ad7ff" font-size="11" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
 </svg>

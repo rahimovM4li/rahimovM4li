@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-labelledby="title desc">
+<title id="title">Kalima</title>
+<desc id="desc">Learn new words. Remember them longer. Animated project illustration with a static reduced-motion view.</desc>
+<defs><linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1420"/><stop offset=".55" stop-color="#090e16"/><stop offset="1" stop-color="#0e1823"/></linearGradient>
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bda8ff" stop-opacity=".45"/><stop offset=".45" stop-color="#334355" stop-opacity=".6"/><stop offset="1" stop-color="#bda8ff" stop-opacity=".2"/></linearGradient>
+<radialGradient id="bloom"><stop stop-color="#bda8ff" stop-opacity=".2"/><stop offset="1" stop-color="#bda8ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="panel" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#1b2440"/><stop offset="1" stop-color="#0b1521"/></linearGradient>
+<linearGradient id="bag" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#684030"/><stop offset="1" stop-color="#281f24"/></linearGradient>
+<radialGradient id="plate"><stop stop-color="#263a2c"/><stop offset=".73" stop-color="#15261f"/><stop offset=".87" stop-color="#516046"/><stop offset="1" stop-color="#17251d"/></radialGradient>
+<linearGradient id="paper" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#524362"/><stop offset="1" stop-color="#211c34"/></linearGradient>
+<linearGradient id="envelope" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#594469"/><stop offset="1" stop-color="#29203c"/></linearGradient>
+<linearGradient id="scan-light" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bda8ff" stop-opacity="0"/><stop offset="1" stop-color="#bda8ff" stop-opacity=".7"/></linearGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#bda8ff" opacity=".17"/></pattern>
+<clipPath id="card-clip"><rect x="1" y="1" width="598" height="268" rx="21"/></clipPath>
+<clipPath id="scan-clip"><rect x="25" y="42" width="182" height="82" rx="3"/></clipPath>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.float{animation:float 7s ease-in-out infinite}
+.float-alt{animation:float-alt 9s ease-in-out infinite}
+.breathe{animation:breathe 8s ease-in-out infinite}
+.orbit{transform-origin:0 0;animation:orbit 20s linear infinite}
+.orbit-slow{transform-origin:0 0;animation:orbit 30s linear infinite reverse}
+.spark{animation:spark 6s ease-in-out infinite}
+.spark-late{animation:spark 7.5s ease-in-out infinite reverse}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes float-alt{0%,100%{transform:translateY(-3px)}50%{transform:translateY(5px)}}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:.9}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes spark{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(-10px);opacity:1}}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.route-beacon{transform:none}}
+</style>
+<rect x=".8" y=".8" width="598.4" height="268.4" rx="21" fill="url(#background)" stroke="url(#border)" stroke-width="1.6"/>
+<g clip-path="url(#card-clip)">
+<ellipse class="breathe" cx="500" cy="192" rx="172" ry="141" fill="url(#bloom)"/>
+<rect x="352" y="100" width="240" height="156" fill="url(#dots)"/>
+<path d="M363 267C428 213 515 250 596 200" fill="none" stroke="#bda8ff" stroke-opacity=".08" stroke-width="1.2"/>
+<path d="M402 268C470 224 549 245 600 220" fill="none" stroke="#bda8ff" stroke-opacity=".1"/>
+<path d="M34 1h85" stroke="#bda8ff" stroke-opacity=".8" stroke-width="2"/>
+<path d="M590 184v50q0 25-25 25h-47" fill="none" stroke="#bda8ff" stroke-opacity=".18"/>
+<g transform="translate(349 101)">
+<ellipse cx="123" cy="135" rx="88" ry="18" fill="#000" opacity=".28"/>
+<ellipse cx="121" cy="88" rx="105" ry="61" fill="none" stroke="#bda8ff" stroke-opacity=".16" stroke-dasharray="2 7"/>
+<g transform="translate(119 84)"><g class="orbit"><circle cx="76" cy="0" r="3.2" fill="#bda8ff"/><circle cx="76" cy="0" r="8" fill="#bda8ff" opacity=".1"/></g></g>
+<g class="float-alt"><g transform="rotate(-10 105 78)"><rect x="31" y="24" width="145" height="102" rx="12" fill="#161c31" stroke="#bda8ff" stroke-opacity=".3"/><path d="M47 43h54M47 55h31" stroke="#6d6b91" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/></g></g>
+<g transform="rotate(8 144 98)"><g class="float-alt"><rect x="72" y="48" width="139" height="99" rx="12" fill="#111a2b" stroke="#36485d"/><path d="M175 68h17M175 78h17" stroke="#466079" stroke-width="2" stroke-linecap="round"/></g></g>
+<g class="float"><g transform="rotate(-4 114 88)">
+<rect x="38" y="41" width="151" height="102" rx="12" fill="#000" opacity=".25"/>
+<rect x="38" y="35" width="151" height="102" rx="12" fill="url(#panel)" stroke="#bda8ff" stroke-opacity=".65"/>
+<path d="M51 36h80" stroke="#fff" stroke-opacity=".22"/>
+<text x="54" y="78" font-size="31" font-weight="600" fill="#eeeaff">Aa</text>
+<path d="M55 94h87M55 104h62" stroke="#7e86a9" stroke-width="2.3" stroke-linecap="round"/>
+<rect x="136" y="61" width="34" height="27" rx="6" fill="#bda8ff" fill-opacity=".09" stroke="#bda8ff" stroke-opacity=".18"/>
+<path d="M147 73l4 4 9-10" fill="none" stroke="#bda8ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M55 122h16M77 122h16M99 122h16" stroke="#bda8ff" stroke-opacity=".6" stroke-width="3" stroke-linecap="round"/>
+</g></g>
+<g transform="translate(194 33)"><g class="spark"><circle r="13" fill="#162b2c" stroke="#8bebc7" stroke-opacity=".7"/><path d="M-5 0l3 3 7-7" fill="none" stroke="#9affd7" stroke-width="1.8" stroke-linecap="round"/></g></g>
+<path class="spark-late" d="M18 97v8M14 101h8" stroke="#bda8ff" stroke-opacity=".6" stroke-width="1.4"/>
+</g>
+</g>
+<circle cx="35" cy="34" r="3" fill="#bda8ff"/>
+<text x="47" y="38" fill="#a7b7ca" font-size="11" font-weight="600" letter-spacing="1.45">01 / LANGUAGE LEARNING</text>
+<path d="M549 39l15-15M551 24h13v13" fill="none" stroke="#bda8ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="86" fill="#f1f6fc" font-size="34" font-weight="700" letter-spacing="-.95">Kalima</text>
+<text x="32" y="130" fill="#acbacc" font-size="18.5">Learn new words.</text>
+<text x="32" y="156" fill="#acbacc" font-size="18.5">Remember them longer.</text>
+<path d="M32 212h31" stroke="#bda8ff" stroke-width="1.5" stroke-opacity=".65"/>
+<text x="32" y="235" fill="#bda8ff" font-size="11" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
+</svg>

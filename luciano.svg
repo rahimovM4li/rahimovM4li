@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-labelledby="title desc">
+<title id="title">Luciano Restaurant</title>
+<desc id="desc">The restaurant experience, brought online. Animated project illustration with a static reduced-motion view.</desc>
+<defs><linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1420"/><stop offset=".55" stop-color="#090e16"/><stop offset="1" stop-color="#0e1823"/></linearGradient>
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c1d5a5" stop-opacity=".45"/><stop offset=".45" stop-color="#334355" stop-opacity=".6"/><stop offset="1" stop-color="#c1d5a5" stop-opacity=".2"/></linearGradient>
+<radialGradient id="bloom"><stop stop-color="#c1d5a5" stop-opacity=".2"/><stop offset="1" stop-color="#c1d5a5" stop-opacity="0"/></radialGradient>
+<linearGradient id="panel" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#20332b"/><stop offset="1" stop-color="#0b1521"/></linearGradient>
+<linearGradient id="bag" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#684030"/><stop offset="1" stop-color="#281f24"/></linearGradient>
+<radialGradient id="plate"><stop stop-color="#263a2c"/><stop offset=".73" stop-color="#15261f"/><stop offset=".87" stop-color="#516046"/><stop offset="1" stop-color="#17251d"/></radialGradient>
+<linearGradient id="paper" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#524362"/><stop offset="1" stop-color="#211c34"/></linearGradient>
+<linearGradient id="envelope" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#594469"/><stop offset="1" stop-color="#29203c"/></linearGradient>
+<linearGradient id="scan-light" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c1d5a5" stop-opacity="0"/><stop offset="1" stop-color="#c1d5a5" stop-opacity=".7"/></linearGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#c1d5a5" opacity=".17"/></pattern>
+<clipPath id="card-clip"><rect x="1" y="1" width="598" height="268" rx="21"/></clipPath>
+<clipPath id="scan-clip"><rect x="25" y="42" width="182" height="82" rx="3"/></clipPath>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.float{animation:float 7s ease-in-out infinite}
+.float-alt{animation:float-alt 9s ease-in-out infinite}
+.breathe{animation:breathe 8s ease-in-out infinite}
+.orbit{transform-origin:0 0;animation:orbit 20s linear infinite}
+.orbit-slow{transform-origin:0 0;animation:orbit 30s linear infinite reverse}
+.spark{animation:spark 6s ease-in-out infinite}
+.spark-late{animation:spark 7.5s ease-in-out infinite reverse}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes float-alt{0%,100%{transform:translateY(-3px)}50%{transform:translateY(5px)}}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:.9}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes spark{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(-10px);opacity:1}}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.route-beacon{transform:none}}
+</style>
+<rect x=".8" y=".8" width="598.4" height="268.4" rx="21" fill="url(#background)" stroke="url(#border)" stroke-width="1.6"/>
+<g clip-path="url(#card-clip)">
+<ellipse class="breathe" cx="500" cy="192" rx="172" ry="141" fill="url(#bloom)"/>
+<rect x="352" y="100" width="240" height="156" fill="url(#dots)"/>
+<path d="M363 267C428 213 515 250 596 200" fill="none" stroke="#c1d5a5" stroke-opacity=".08" stroke-width="1.2"/>
+<path d="M402 268C470 224 549 245 600 220" fill="none" stroke="#c1d5a5" stroke-opacity=".1"/>
+<path d="M34 1h85" stroke="#c1d5a5" stroke-opacity=".8" stroke-width="2"/>
+<path d="M590 184v50q0 25-25 25h-47" fill="none" stroke="#c1d5a5" stroke-opacity=".18"/>
+<g transform="translate(349 101)">
+<ellipse cx="143" cy="133" rx="79" ry="16" fill="#000" opacity=".35"/>
+<g transform="translate(143 81)"><g class="float-alt"><circle cy="5" r="60" fill="#050907" opacity=".4"/><circle r="60" fill="url(#plate)" stroke="#c1d5a5" stroke-opacity=".65"/>
+<circle r="53" fill="none" stroke="#87967a" stroke-opacity=".3"/>
+<circle r="44" fill="#0f1d1b" stroke="#6b805a" stroke-opacity=".55"/>
+<circle r="36" fill="none" stroke="#456047" stroke-opacity=".3"/>
+<g class="orbit"><path d="M-42-42A59.4 59.4 0 0 1 42-42" fill="none" stroke="#eff6cc" stroke-width="2" stroke-opacity=".85" stroke-linecap="round"/><circle cx="42" cy="-42" r="2.5" fill="#eff6cc"/></g>
+<path d="M-10 14L10-14M0 0q-18-13-15-21Q0-23 0 0M2-3q18-4 20-15Q5-22 2-3M-5 8q-17-5-20-17Q-8-13-5 8" fill="none" stroke="#c1d5a5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g></g>
+<path d="M214 35v99M214 35q-12 5-12 28v20h12" fill="none" stroke="#899b77" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M68 43v92M61 39v27q0 10 7 10t7-10V39" fill="none" stroke="#899b77" stroke-width="2.2" stroke-linecap="round"/>
+<g transform="rotate(-10 52 70)"><g class="float"><rect x="10" y="27" width="86" height="108" rx="9" fill="#000" opacity=".3"/><rect x="10" y="21" width="86" height="108" rx="9" fill="url(#panel)" stroke="#c1d5a5" stroke-opacity=".6"/>
+<path d="M20 33h66" stroke="#b9c9a1" stroke-opacity=".25"/>
+<text x="25" y="51" font-size="11" fill="#e0e6cb" letter-spacing="1.8">TABLE</text>
+<path d="M25 67h49M25 77h33" stroke="#899983" stroke-width="1.9" stroke-linecap="round"/>
+<rect x="26" y="91" width="29" height="23" rx="4" fill="#22372e" stroke="#829474" stroke-opacity=".45"/><path d="M33 102l4 4 8-9" fill="none" stroke="#ccddb1" stroke-width="1.7" stroke-linecap="round"/>
+</g></g>
+<path class="spark" d="M124 4v8M120 8h8" stroke="#c1d5a5" stroke-width="1.2"/>
+</g>
+</g>
+<circle cx="35" cy="34" r="3" fill="#c1d5a5"/>
+<text x="47" y="38" fill="#a7b7ca" font-size="11" font-weight="600" letter-spacing="1.45">04 / RESTAURANT PLATFORM</text>
+<path d="M549 39l15-15M551 24h13v13" fill="none" stroke="#c1d5a5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="86" fill="#f1f6fc" font-size="34" font-weight="700" letter-spacing="-.95">Luciano Restaurant</text>
+<text x="32" y="130" fill="#acbacc" font-size="18.5">The restaurant experience,</text>
+<text x="32" y="156" fill="#acbacc" font-size="18.5">brought online.</text>
+<path d="M32 212h31" stroke="#c1d5a5" stroke-width="1.5" stroke-opacity=".65"/>
+<text x="32" y="235" fill="#c1d5a5" font-size="11" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
+</svg>

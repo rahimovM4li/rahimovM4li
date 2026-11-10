@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://m4li.de/">
     <picture>
-      <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="hero-mobile-static.svg">
-      <source media="(prefers-reduced-motion: reduce)" srcset="hero-static.svg">
-      <source media="(max-width: 600px)" srcset="hero-mobile.svg">
-      <img src="hero.svg" width="100%" alt="Muhammadali Rahimov — Ali / M4LI. Full-stack development and AI integration. Based in Germany.">
+      <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./hero-mobile-static.svg">
+      <source media="(prefers-reduced-motion: reduce)" srcset="./hero-static.svg">
+      <source media="(max-width: 600px)" srcset="./hero-mobile.svg">
+      <img src="./hero.svg" width="100%" alt="Muhammadali Rahimov — Ali / M4LI. Full-stack development and AI integration. Based in Germany.">
     </picture>
   </a>
 </p>
@@ -23,13 +23,51 @@ I build web applications across the stack: interfaces, backend services, databas
 
 **My current focus:** full-stack engineering, practical AI integration and turning ideas into applications people can use.
 
-## Selected projects
+## Featured projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://kalima.m4li.de/">
+        <img src="./kalima.svg" width="100%" alt="Kalima — vocabulary learning with spaced repetition, stories and audio.">
+      </a>
+      <p>A language-learning app with vocabulary decks, spaced repetition, short stories, translations and audio.</p>
+      <p><sub>React · TypeScript · Supabase · PWA</sub></p>
+      <a href="https://kalima.m4li.de/"><strong>Explore Kalima ↗</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://roadmap.m4li.de/">
+        <img src="./roadmap.svg" width="100%" alt="Germany Roadmap — study, work and life in Germany.">
+      </a>
+      <p>A multilingual guide to studying, working and living in Germany, built for people from Tajikistan.</p>
+      <p><sub>React · TypeScript · Internationalization</sub></p>
+      <a href="https://roadmap.m4li.de/"><strong>Explore the roadmap ↗</strong></a>
+      &nbsp; · &nbsp; <a href="https://github.com/rahimovM4li/raodmap.de">Source</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://m4li.de/en/projects/">
+        <img src="./tajeats.svg" width="100%" alt="TajEats — a full-stack food-ordering and delivery platform.">
+      </a>
+      <p>A full-stack food-delivery platform connecting customers, restaurants, drivers and administrators through one ordering workflow.</p>
+      <p><sub>React · TypeScript · Java · Spring Boot · PostgreSQL</sub></p>
+      <a href="https://m4li.de/en/projects/"><strong>View portfolio case study ↗</strong></a>
+      <p><sub>Private project</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://xn--gaststtte-luciano-vqb.de/">
+        <img src="./luciano.svg" width="100%" alt="Luciano Restaurant — a digital menu, reservations and online ordering.">
+      </a>
+      <p>A restaurant website with a digital menu, reservation and online-ordering integrations.</p>
+      <p><sub>Responsive web · Digital menu · Booking integrations</sub></p>
+      <a href="https://xn--gaststtte-luciano-vqb.de/"><strong>Visit Luciano Restaurant ↗</strong></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://davatnoma.m4li.de/">
-        <img src="davatnoma.svg" width="100%" alt="Davatnoma — digital invitations with a personal touch.">
+        <img src="./davatnoma.svg" width="100%" alt="Davatnoma — digital invitations with a personal touch.">
       </a>
       <p>Personalized digital invitations with templates, photos, music and mobile sharing.</p>
       <p><sub>React · TypeScript · Supabase · PostgreSQL</sub></p>
@@ -37,56 +75,26 @@ I build web applications across the stack: interfaces, backend services, databas
     </td>
     <td width="50%" valign="top">
       <a href="https://coach.m4li.de/">
-        <img src="coach.svg" width="100%" alt="Exam Coach — AP1 and AP2 preparation for IT apprentices.">
+        <img src="./coach.svg" width="100%" alt="Exam Coach — AP1 and AP2 preparation for IT apprentices.">
       </a>
       <p>Exam preparation for IT apprentices, with simulations, SQL and pseudocode practice, and offline learning.</p>
       <p><sub>React · TypeScript · PWA · IndexedDB</sub></p>
       <a href="https://coach.m4li.de/"><strong>Open Exam Coach ↗</strong></a>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://roadmap.m4li.de/">
-        <img src="roadmap.svg" width="100%" alt="Germany Roadmap — planning a new chapter in Germany.">
-      </a>
-      <p>A multilingual guide to studying, working and living in Germany, built for people from Tajikistan.</p>
-      <p><sub>React · TypeScript · Internationalization</sub></p>
-      <a href="https://roadmap.m4li.de/"><strong>Explore the roadmap ↗</strong></a>
-      &nbsp; · &nbsp; <a href="https://github.com/rahimovM4li/raodmap.de">Source</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://www.sahifai-man.tj/">
-        <img src="sahifai.svg" width="100%" alt="Sahifai Man — an online home for small businesses.">
-      </a>
-      <p>A template-based platform for small businesses to present their services, prices, location and contact options.</p>
-      <p><sub>Spring Boot · PostgreSQL · Responsive web</sub></p>
-      <a href="https://www.sahifai-man.tj/"><strong>Visit Sahifai Man ↗</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://fit.m4li.de/">
-        <img src="fit.svg" width="100%" alt="M4LI Fit — workout tracking and progress.">
-      </a>
-      <p>A mobile workout tracker for exercises, sets, reps and weight, with charts to follow progress.</p>
-      <p><sub>React · TypeScript · PWA · Firebase</sub></p>
-      <a href="https://fit.m4li.de/"><strong>Explore M4LI Fit ↗</strong></a>
-      &nbsp; · &nbsp; <a href="https://github.com/rahimovM4li/m4li-fitness-tracker">Source</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://finance.m4li.de/">
-        <img src="finance.svg" width="100%" alt="M4LI Finance — personal finances at a glance.">
-      </a>
-      <p>A personal finance tracker for income, expenses, budgets and savings goals, with visual insights.</p>
-      <p><sub>React · TypeScript · PWA · Firebase</sub></p>
-      <a href="https://finance.m4li.de/"><strong>Explore M4LI Finance ↗</strong></a>
-      &nbsp; · &nbsp; <a href="https://github.com/rahimovM4li/m4li-finance-tracker">Source</a>
-    </td>
-  </tr>
 </table>
 
+### More projects
+
+| Project | What I built |
+| :--- | :--- |
+| **[Sahifai Man](https://www.sahifai-man.tj/)** | A template-based platform for small businesses to present services, prices and contact options. |
+| **[M4LI Fit](https://fit.m4li.de/)** | A workout tracker with exercise logs and progress charts. [Source](https://github.com/rahimovM4li/m4li-fitness-tracker). |
+| **[M4LI Finance](https://finance.m4li.de/)** | A tracker for income, expenses, budgets and savings goals. [Source](https://github.com/rahimovM4li/m4li-finance-tracker). |
+| **AgentHub** | A learning platform for agentic development, combining courses, an AI assistant and community features. |
+
 <p align="center">
-  <a href="https://m4li.de/"><strong>More projects, case studies and the story behind them → m4li.de</strong></a>
+  <a href="https://m4li.de/en/projects/"><strong>More projects, case studies and the story behind them → m4li.de</strong></a>
 </p>
 
 ## Technologies I work with
@@ -98,11 +106,9 @@ I build web applications across the stack: interfaces, backend services, databas
 | **AI integration** | LLM APIs · RAG · embeddings · semantic search · pgvector |
 | **Delivery & tooling** | Docker · Git · GitHub / GitLab · CI/CD · Linux · Nginx |
 
-## Beyond the public demos
+## Currently exploring
 
-- **AgentHub** — a learning platform for agentic development, combining courses, an AI assistant and community features.
-- **Kalima** — a vocabulary-learning app built around spaced repetition.
-- **Developer workflows** — exploring how specifications, user stories and acceptance criteria can guide AI-assisted implementation and testing.
+How specifications, user stories and acceptance criteria can guide AI-assisted implementation and testing.
 
 <details>
   <summary><strong>A bit more about the person behind the code</strong></summary>
@@ -124,6 +130,6 @@ I'm happy to connect with developers and teams working on useful products, thoug
 
 <p align="center">
   <a href="https://m4li.de/">
-    <img src="footer.svg" width="100%" alt="Let's build something useful. Connect with Ali.">
+    <img src="./footer.svg" width="100%" alt="Let's build something useful. Connect with Ali.">
   </a>
 </p>

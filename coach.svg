@@ -1,29 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-labelledby="title desc">
 <title id="title">Exam Coach</title>
-<desc id="desc">Practice with purpose. Prepare for AP1 &amp; AP2.</desc>
-<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80f5b4" stop-opacity=".29"/><stop offset=".55" stop-color="#273445" stop-opacity=".65"/><stop offset="1" stop-color="#273445" stop-opacity=".35"/></linearGradient></defs>
+<desc id="desc">Practice with purpose. Prepare for AP1 &amp; AP2. Animated project illustration with a static reduced-motion view.</desc>
+<defs><linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1420"/><stop offset=".55" stop-color="#090e16"/><stop offset="1" stop-color="#0e1823"/></linearGradient>
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#89f2c1" stop-opacity=".45"/><stop offset=".45" stop-color="#334355" stop-opacity=".6"/><stop offset="1" stop-color="#89f2c1" stop-opacity=".2"/></linearGradient>
+<radialGradient id="bloom"><stop stop-color="#89f2c1" stop-opacity=".2"/><stop offset="1" stop-color="#89f2c1" stop-opacity="0"/></radialGradient>
+<linearGradient id="panel" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#123b30"/><stop offset="1" stop-color="#0b1521"/></linearGradient>
+<linearGradient id="bag" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#684030"/><stop offset="1" stop-color="#281f24"/></linearGradient>
+<radialGradient id="plate"><stop stop-color="#263a2c"/><stop offset=".73" stop-color="#15261f"/><stop offset=".87" stop-color="#516046"/><stop offset="1" stop-color="#17251d"/></radialGradient>
+<linearGradient id="paper" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#524362"/><stop offset="1" stop-color="#211c34"/></linearGradient>
+<linearGradient id="envelope" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#594469"/><stop offset="1" stop-color="#29203c"/></linearGradient>
+<linearGradient id="scan-light" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#89f2c1" stop-opacity="0"/><stop offset="1" stop-color="#89f2c1" stop-opacity=".7"/></linearGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#89f2c1" opacity=".17"/></pattern>
+<clipPath id="card-clip"><rect x="1" y="1" width="598" height="268" rx="21"/></clipPath>
+<clipPath id="scan-clip"><rect x="25" y="42" width="182" height="82" rx="3"/></clipPath>
+</defs>
 <style>
- text{font-family:Arial,Helvetica,sans-serif}
- .signal{animation:travel 9s linear infinite}
- @keyframes travel{to{stroke-dashoffset:-118}}
- @media(prefers-reduced-motion:reduce){.signal{animation:none}}
+text{font-family:Arial,Helvetica,sans-serif}
+.float{animation:float 7s ease-in-out infinite}
+.float-alt{animation:float-alt 9s ease-in-out infinite}
+.breathe{animation:breathe 8s ease-in-out infinite}
+.orbit{transform-origin:0 0;animation:orbit 20s linear infinite}
+.orbit-slow{transform-origin:0 0;animation:orbit 30s linear infinite reverse}
+.spark{animation:spark 6s ease-in-out infinite}
+.spark-late{animation:spark 7.5s ease-in-out infinite reverse}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes float-alt{0%,100%{transform:translateY(-3px)}50%{transform:translateY(5px)}}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:.9}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes spark{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(-10px);opacity:1}}
+ .check-one,.check-two,.check-three{stroke-dasharray:15;animation:check 8s ease-in-out infinite}.check-two{animation-delay:.7s}.check-three{animation-delay:1.4s}@keyframes check{0%,15%,100%{stroke-dashoffset:0}35%,45%{stroke-dashoffset:15}65%,90%{stroke-dashoffset:0}}.progress{transform-origin:0 0;animation:progress 8s ease-in-out infinite}@keyframes progress{0%,100%{transform:scaleX(.72)}35%{transform:scaleX(.3)}80%{transform:scaleX(1)}}.scan{animation:scan 6s ease-in-out infinite}@keyframes scan{0%,100%{transform:translateY(0);opacity:.1}50%{transform:translateY(65px);opacity:.35}}.badge{transform-origin:0 0;animation:badge 8s ease-in-out infinite}@keyframes badge{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-7px) rotate(5deg)}} 
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.route-beacon{transform:none}}
 </style>
-<rect x=".75" y=".75" width="598.5" height="218.5" rx="17" fill="#090e16" stroke="url(#border)" stroke-width="1.5"/>
-<path d="M32 1h62" stroke="#80f5b4" stroke-opacity=".85" stroke-width="2"/>
-<circle cx="35" cy="36" r="3" fill="#80f5b4"/>
-<text x="47" y="40" fill="#a0acbd" font-size="11.5" font-weight="600" letter-spacing="1.65">02 / EXAM PREPARATION</text>
-<path d="M551 37l14-14M552 23h13v13" fill="none" stroke="#80f5b4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="32" y="85" fill="#f1f5fb" font-size="31" font-weight="700" letter-spacing="-.8">Exam Coach</text>
-<text x="32" y="125" fill="#a7b2c3" font-size="18.5">Practice with purpose.</text>
-<text x="32" y="151" fill="#a7b2c3" font-size="18.5">Prepare for AP1 &amp; AP2.</text>
-<text x="32" y="191" fill="#80f5b4" font-size="11.5" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
-<rect x="458" y="93" width="91" height="99" rx="9" fill="#0e1920" stroke="#2a3b41"/>
-<path d="M459 118h89" stroke="#2a3b41"/><circle cx="470" cy="106" r="2.5" fill="#80f5b4"/>
-<path d="M478 106h23" stroke="#516d69" stroke-width="2" stroke-linecap="round"/>
-<rect x="472" y="132" width="11" height="11" rx="2" fill="#17372d"/><path d="M474 137l2 2 5-5" fill="none" stroke="#80f5b4" stroke-width="1.5"/>
-<path d="M494 137h38" stroke="#546572" stroke-width="2" stroke-linecap="round"/>
-<rect x="472" y="153" width="11" height="11" rx="2" fill="#17372d"/><path d="M474 158l2 2 5-5" fill="none" stroke="#80f5b4" stroke-width="1.5"/>
-<path d="M494 158h27" stroke="#546572" stroke-width="2" stroke-linecap="round"/>
-<path d="M473 179h58" stroke="#273c39" stroke-width="3" stroke-linecap="round"/>
-<path class="signal" d="M473 179h58" stroke="#80f5b4" stroke-width="3" stroke-dasharray="18 100" stroke-linecap="round"/>
+<rect x=".8" y=".8" width="598.4" height="268.4" rx="21" fill="url(#background)" stroke="url(#border)" stroke-width="1.6"/>
+<g clip-path="url(#card-clip)">
+<ellipse class="breathe" cx="500" cy="192" rx="172" ry="141" fill="url(#bloom)"/>
+<rect x="352" y="100" width="240" height="156" fill="url(#dots)"/>
+<path d="M363 267C428 213 515 250 596 200" fill="none" stroke="#89f2c1" stroke-opacity=".08" stroke-width="1.2"/>
+<path d="M402 268C470 224 549 245 600 220" fill="none" stroke="#89f2c1" stroke-opacity=".1"/>
+<path d="M34 1h85" stroke="#89f2c1" stroke-opacity=".8" stroke-width="2"/>
+<path d="M590 184v50q0 25-25 25h-47" fill="none" stroke="#89f2c1" stroke-opacity=".18"/>
+<g transform="translate(349 101)">
+<ellipse cx="124" cy="146" rx="94" ry="12" fill="#000" opacity=".25"/>
+<g class="float"><rect x="23" y="18" width="187" height="132" rx="13" fill="#000" opacity=".3"/><rect x="23" y="12" width="187" height="132" rx="13" fill="url(#panel)" stroke="#89f2c1" stroke-opacity=".55"/>
+<path d="M24 39h185" stroke="#36584e" stroke-opacity=".7"/>
+<circle cx="37" cy="26" r="2.5" fill="#89f2c1"/><circle cx="46" cy="26" r="2.5" fill="#4e8b78"/><circle cx="55" cy="26" r="2.5" fill="#2b554b"/>
+<text x="139" y="29" font-size="8.5" fill="#adcfc3" letter-spacing="1.2">PRACTICE</text>
+<rect x="39" y="52" width="15" height="15" rx="4" fill="#193c32"/><path class="check-one" d="M43 59l3 3 5-7" fill="none" stroke="#b2ffdc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68 57h96M68 64h64" stroke="#729d8f" stroke-width="2" stroke-linecap="round"/>
+<rect x="39" y="77" width="15" height="15" rx="4" fill="#193c32"/><path class="check-two" d="M43 84l3 3 5-7" fill="none" stroke="#b2ffdc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68 82h82M68 89h102" stroke="#729d8f" stroke-width="2" stroke-linecap="round"/>
+<rect x="39" y="102" width="15" height="15" rx="4" fill="#193c32"/><path class="check-three" d="M43 109l3 3 5-7" fill="none" stroke="#b2ffdc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68 107h93M68 114h71" stroke="#729d8f" stroke-width="2" stroke-linecap="round"/>
+<rect x="39" y="129" width="126" height="3" rx="1.5" fill="#27463d"/>
+<g transform="translate(39 129)"><rect class="progress" width="126" height="3" rx="1.5" fill="#89f2c1"/></g>
+<g clip-path="url(#scan-clip)"><rect class="scan" opacity=".22" x="25" y="45" width="182" height="22" fill="url(#scan-light)"/></g>
+</g>
+<g transform="translate(199 130)"><g class="badge"><circle cy="4" r="25" fill="#000" opacity=".25"/><circle r="25" fill="#1a3b31" stroke="#89f2c1" stroke-opacity=".7"/><circle r="18" fill="none" stroke="#98ffcc" stroke-opacity=".3"/><path d="M-9 0l6 6L10-9" fill="none" stroke="#c3ffe2" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+<path class="spark-late" d="M13 76v8M9 80h8" stroke="#89f2c1" stroke-width="1.2"/>
+</g>
+</g>
+<circle cx="35" cy="34" r="3" fill="#89f2c1"/>
+<text x="47" y="38" fill="#a7b7ca" font-size="11" font-weight="600" letter-spacing="1.45">06 / EXAM PREPARATION</text>
+<path d="M549 39l15-15M551 24h13v13" fill="none" stroke="#89f2c1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="86" fill="#f1f6fc" font-size="34" font-weight="700" letter-spacing="-.95">Exam Coach</text>
+<text x="32" y="130" fill="#acbacc" font-size="18.5">Practice with purpose.</text>
+<text x="32" y="156" fill="#acbacc" font-size="18.5">Prepare for AP1 &amp; AP2.</text>
+<path d="M32 212h31" stroke="#89f2c1" stroke-width="1.5" stroke-opacity=".65"/>
+<text x="32" y="235" fill="#89f2c1" font-size="11" font-weight="600" letter-spacing="1.6">EXPLORE PROJECT</text>
 </svg>
